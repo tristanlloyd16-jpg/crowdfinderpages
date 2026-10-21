@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crowd Finder support</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0a0a0d; color: #f4f1ea; font: 17px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 22px 72px; }
+  .mark { width: 64px; height: 64px; border-radius: 50%; border: 3px solid #ff2bd6; display: grid; place-items: center; margin-bottom: 22px; box-shadow: 0 0 28px rgba(255, 43, 214, 0.45); }
+  .mark i { display: block; width: 30px; height: 30px; border-radius: 50%; border: 3px solid #ff2bd6; opacity: 0.8; }
+  h1 { font-size: 38px; line-height: 1.1; margin: 0 0 10px; letter-spacing: -0.5px; }
+  h2 { font-size: 20px; margin: 38px 0 8px; color: #ff2bd6; }
+  p, li { color: rgba(244, 241, 234, 0.88); }
+  .lead { font-size: 20px; color: rgba(244, 241, 234, 0.62); margin: 0; }
+  a { color: #ff2bd6; }
+  details { border-top: 1px solid rgba(255, 255, 255, 0.14); padding: 14px 0; }
+  details:last-of-type { border-bottom: 1px solid rgba(255, 255, 255, 0.14); }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 10px 0 0; }
+  .small { font-size: 14px; color: rgba(244, 241, 234, 0.55); margin-top: 44px; }
+</style>
+</head>
+<body>
+<main>
+<div class="mark"><i></i></div>
+<h1>Crowd Finder</h1>
+<p class="lead">Find your people when the signal is gone.</p>
+
+<h2>What it does</h2>
+<p>Crowd Finder links the phones in your group straight to each other with Bluetooth and WiFi, so it works with no cell service and no internet. A radar shows how far away each friend is and which way to walk. On iPhones with Ultra Wideband, tap a friend for a big arrow and an exact distance.</p>
+<p>Before you go, while you still have internet, you can download a map of the event or hike. Then everyone in the group can drop meetup spots on it, like the stage, the water or the car. The spots appear on every phone in the group, and you can walk to one with the same arrow you use to find a friend.</p>
+<p>Anyone can also set a meeting time. It reaches every phone in the group, and each person chooses how long before the time their phone reminds them to head to the meeting spot.</p>
+<p>A friend who is too far away to link with directly can still show up through the friends in between, marked with a dashed ring on the radar.</p>
+<p>There is also a group chat for short messages to everyone in your group.</p>
+
+<h2>Getting started</h2>
+<ol>
+<li>Everyone in your group installs the app.</li>
+<li>Everyone types the same group code. The Make one button creates a code you can read out loud.</li>
+<li>Tap Allow when the app asks about Location, Local Network and Bluetooth.</li>
+<li>Your friends appear on the radar. Tap a friend to find them, or tap Light up everyone to make every screen glow in your group color.</li>
+</ol>
+
+<h2>Common questions</h2>
+<details><summary>My friends do not show up</summary>
+<p>Check that everyone typed exactly the same group code, that Bluetooth and WiFi are switched on (they do not need to be joined to a network), and that everyone tapped Allow on the Location and Local Network questions. Phones connect directly to each other, so friends need to be within range. How far that is depends on the venue and the crowd, and it is usually tens of meters.</p></details>
+<details><summary>The arrow and exact distance do not appear</summary>
+<p>Exact distance and direction need an iPhone 11 or newer on both phones, and the friends need to be fairly close. Hold your phone upright and point it toward your friend.</p></details>
+<details><summary>Does the app use my mobile data?</summary>
+<p>Finding your friends does not. That happens directly between the phones, with no cell service and no internet. The only time the app uses the internet is when you choose to download a map, which you can do once on WiFi before you go.</p></details>
+<details><summary>How do the offline map and meetup spots work?</summary>
+<p>While you have internet, open the map from the main screen, choose Download a new map, search for the place, move the square over the area you need, and tap Download. The map is saved on your phone. Later, with no signal, open the map, hold the crosshair where you want to meet, and tap Drop a meetup spot here. Every phone in the group gets the spot. Tap a spot to walk to it or to remove it for everyone. Each person needs to download the map on their own phone, because maps are not sent between phones.</p></details>
+<details><summary>What does the dashed ring on the radar mean?</summary>
+<p>That friend is out of direct range of your phone, so their position reached you through other friends' phones in your group. It can be a little older than the position of a friend you are linked to directly, and it needs at least one friend in the middle with Crowd Finder open.</p></details>
+<details><summary>The map download failed</summary>
+<p>The map data comes from free community servers that are sometimes busy. Wait a minute and tap Try again. A smaller area or turning off buildings makes the download smaller and faster.</p></details>
+<details><summary>How do meeting times and reminders work?</summary>
+<p>Open Meeting times on the main screen, tap Set a meeting time, and choose what it is for, the time, and a meetup spot if you want one. The meeting is sent to every phone in your group as soon as it links up with yours, so a friend who was out of range gets it when they come back. Each person then chooses their own reminder, from 5 minutes to an hour before. Reminders are set on the phone itself, so they go off even with no signal. They need Notifications to be allowed for Crowd Finder in the iOS Settings app. Reminders are ordinary notifications, so they follow your silent switch and Focus settings.</p></details>
+<details><summary>How does the group chat work?</summary>
+<p>Open Group chat on the main screen and type a message, or tap a quick reply like On my way. Messages go straight from phone to phone to everyone in your group, with no internet and no server, and they can hop through friends' phones to reach people farther away. A phone only receives messages while Crowd Finder is open on screen, and a friend who was out of range catches up the next time their phone links up with yours. Only people who typed your group code can read the chat. Offensive words are blocked, both when you send a message and when one arrives, and the chat rules appear the first time you open the chat. To report a message, touch and hold it and choose Report this message. That blocks the person on your phone straight away and opens an email to support with the message in it. You can also choose Block to stop seeing someone's messages without reporting them, and the chat menu has Show blocked people again. I read every report and aim to reply within two days. Messages are kept on your phone for 24 hours.</p></details>
+<details><summary>Who can join my group?</summary>
+<p>Anyone who types your group code and is nearby. Use the Make one button and share the code only with people you trust.</p></details>
+<details><summary>iOS says the app icon changed</summary>
+<p>The app icon changes to match your group color, and iOS shows a short notice each time. You can turn this off with App icon follows group color in the menu at the top right of the main screen.</p></details>
+
+<h2>Contact</h2>
+<p>Questions or problems? Email <a href="mailto:legendlloyd16@gmail.com">legendlloyd16@gmail.com</a>.</p>
+
+<p class="small"><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
